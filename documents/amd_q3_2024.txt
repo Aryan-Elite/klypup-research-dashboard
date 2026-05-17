@@ -1,0 +1,72 @@
+Advanced Micro Devices (AMD) — Q3 2024 Earnings Report (Quarter ended September 2024)
+
+FINANCIAL HIGHLIGHTS
+
+Total Revenue: $6.82 billion, up 18% year over year and up 17% sequentially. Record quarterly revenue.
+Gross Margin: 50.1% non-GAAP.
+Operating Income: $1.72 billion non-GAAP, up 34% year over year.
+Net Income: $771 million GAAP; $1.64 billion non-GAAP.
+Earnings Per Share: $0.47 GAAP diluted; $1.01 non-GAAP diluted, up 31% year over year.
+
+SEGMENT BREAKDOWN
+
+Data Center: $3.55 billion, up 122% year over year and up 25% sequentially. Record revenue driven by MI300X GPU sales for AI inference workloads. Major hyperscale customers including Microsoft, Meta, Google, and Oracle are deploying MI300X at scale.
+
+Client (PC CPUs): $1.88 billion, up 29% year over year. Ryzen AI processors for AI PCs gaining traction. AMD is taking market share from Intel in consumer and commercial PC segments.
+
+Gaming: $462 million, down 69% year over year. Semi-custom revenue (PlayStation and Xbox chips) declined significantly as console cycle matures. This is expected to remain weak through 2024.
+
+Embedded: $927 million, up 8% year over year but still significantly below peak levels. Recovery is underway as customers work through excess inventory. Full recovery expected in 2025.
+
+CEO COMMENTARY
+
+Dr. Lisa Su, CEO: "We delivered record quarterly revenue of $6.8 billion, with Data Center segment revenue more than doubling year-over-year. Our AI business is being driven by strong demand for AMD Instinct GPUs and EPYC CPUs, and we are on track to significantly exceed our previous $4.5 billion MI300 revenue target for 2024."
+
+"The MI300X continues to demonstrate leadership inference performance for large language models. We are seeing strong pull from hyperscalers and enterprises. We are accelerating our AI roadmap with MI325X shipping in Q4 and MI350 on track for 2025."
+
+MI300 GPU PERFORMANCE AND COMPETITIVE POSITION
+
+The MI300X is AMD's data center GPU for AI workloads. It features 192GB of HBM3 memory — significantly more than NVIDIA's H100 (80GB). This memory advantage makes MI300X particularly strong for large model inference where the full model fits in GPU memory.
+
+Performance benchmarks show MI300X competitive with H100 on inference for models like Llama 3, GPT-4, and Mixtral. For training, H100 maintains advantages, particularly with CUDA software ecosystem lock-in.
+
+AMD's ROCm software stack continues to improve. PyTorch and JAX support for AMD GPUs has improved significantly. However, the CUDA ecosystem advantage for NVIDIA remains substantial, with most AI frameworks, libraries, and models optimized for CUDA first.
+
+MI300 Revenue Trajectory:
+- 2023: Limited sampling
+- Q1 2024: $600 million
+- Q2 2024: $1.0 billion
+- Q3 2024: Over $1.5 billion
+- Full Year 2024 Guidance: Raised to over $5 billion (from initial $2 billion target)
+
+NEXT GENERATION PRODUCTS
+
+MI325X: Launching Q4 2024. Features 288GB HBM3E memory, up from 192GB. 20% better inference performance than MI300X.
+
+MI350: Expected 2025. Based on CDNA 4 architecture. Targeting 35x better inference performance than MI300X.
+
+MI400: Expected 2026. Next-generation architecture.
+
+EPYC CPU MARKET SHARE
+
+AMD EPYC server CPUs continue to gain market share from Intel Xeon. EPYC Genoa (4th gen) and upcoming Turin (5th gen, launching Q4 2024) offer leading performance per watt. Major cloud providers are increasing EPYC allocation. Server CPU market share for AMD estimated at approximately 33%, up from under 5% five years ago.
+
+RISKS
+
+NVIDIA Competition: NVIDIA's CUDA ecosystem and H100/H200/Blackwell GPU family maintain dominant market position. NVIDIA's software advantage is difficult to replicate.
+
+ROCm Software Maturity: Despite improvements, AMD's ROCm software ecosystem lags CUDA in breadth of supported libraries, models, and developer familiarity.
+
+Customer Concentration: A significant portion of MI300 revenue comes from a small number of hyperscale customers.
+
+Gaming Weakness: Semi-custom gaming revenue is declining as console cycle matures and will remain a headwind through 2024.
+
+Intel Recovery: Intel's upcoming Gaudi 3 AI accelerator and Xeon 6 CPUs could stabilize Intel's competitive position.
+
+GUIDANCE FOR Q4 2024
+
+Revenue: $7.5 billion, plus or minus $300 million (up 22% year over year at midpoint).
+Non-GAAP Gross Margin: Approximately 54%.
+Non-GAAP Operating Expenses: Approximately $1.90 billion.
+
+Full Year 2024: MI300 GPU revenue expected to exceed $5 billion, significantly above initial $2 billion guidance.

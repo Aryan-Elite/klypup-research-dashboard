@@ -1,0 +1,73 @@
+Microsoft Corporation — Q1 FY2025 Earnings Report (Quarter ended September 2024)
+
+FINANCIAL HIGHLIGHTS
+
+Total Revenue: $65.59 billion, up 16% year over year.
+Gross Margin: 69.4%.
+Operating Income: $30.55 billion, up 14% year over year.
+Net Income: $24.67 billion, up 11% year over year.
+Earnings Per Share: $3.30 diluted, up 10% year over year.
+Free Cash Flow: $19.3 billion.
+
+SEGMENT BREAKDOWN
+
+Intelligent Cloud: $24.09 billion, up 20% year over year. The largest and fastest-growing segment. Azure and other cloud services grew 33% in constant currency. Azure AI services revenue more than doubled year over year. Azure is used by over 95% of Fortune 500 companies.
+
+Productivity and Business Processes: $28.32 billion, up 12% year over year. Microsoft 365 Commercial products and cloud services grew 13%. Office 365 Commercial seats grew to over 400 million. LinkedIn revenue grew 10%. Dynamics 365 grew 14%.
+
+More Personal Computing: $13.18 billion, up 17% year over year. Windows OEM revenue grew 2%. Xbox content and services grew 61% driven by Activision Blizzard acquisition. Surface revenue declined.
+
+CEO COMMENTARY
+
+Satya Nadella, CEO: "We had a strong start to fiscal 2025, with Microsoft Cloud revenue of $38.9 billion, up 22% year over year. Our AI business is on a path to $10 billion in annual revenue, the fastest-growing business in our history. Every layer of our stack — from silicon to Azure AI to Copilot — is seeing strong demand."
+
+"Azure AI has grown 2x year over year and continues to accelerate. We now have 100,000 customers using Azure AI services, up 60% year over year. GitHub Copilot has more than 1.8 million paid subscribers, and the overall AI-assisted coding category is growing rapidly."
+
+CFO Amy Hood: "Azure growth of 33% in constant currency reflects continued strong demand for our cloud and AI offerings. We expect Azure growth to accelerate in H2 FY2025 as we bring more AI capacity online. Capital expenditure will continue at elevated levels to meet AI infrastructure demand."
+
+AZURE AND AI CLOUD GROWTH
+
+Azure growth has been consistently above 25% for the past two years, driven by:
+1. AI workloads: Training and inference for large language models using NVIDIA H100/H200 GPUs
+2. Core cloud migration: Enterprises moving on-premises workloads to Azure
+3. Copilot integration: Microsoft 365 Copilot driving Azure consumption
+
+Azure AI Services include Azure OpenAI Service (GPT-4o, GPT-4 Turbo access), Azure Machine Learning, Azure AI Search, Azure Cognitive Services, and GitHub Copilot for Business.
+
+Microsoft has committed to invest $13 billion in OpenAI, which powers Azure OpenAI Service and differentiates Azure from AWS and Google Cloud for enterprise AI workloads.
+
+MICROSOFT COPILOT
+
+Microsoft 365 Copilot: Available to enterprise customers, priced at $30 per user per month. Integrates GPT-4o into Word, Excel, PowerPoint, Outlook, and Teams. Adoption is growing as enterprises complete pilot programs and expand deployment.
+
+GitHub Copilot: 1.8 million paid subscribers. GitHub Copilot Enterprise adds codebase-aware chat for $39/user/month. Developers using GitHub Copilot show 55% faster task completion in studies.
+
+Copilot for Microsoft 365 integration into Windows 11 is expanding AI assistance to consumer users.
+
+CAPITAL EXPENDITURE AND AI INFRASTRUCTURE
+
+Capital expenditure: $20.0 billion in Q1 FY2025, nearly double from Q1 FY2024. This reflects massive investment in AI data centers and NVIDIA GPU procurement. Microsoft has announced plans to invest $80 billion in AI infrastructure in FY2025 globally.
+
+ACTIVISION BLIZZARD INTEGRATION
+
+Activision Blizzard acquisition (completed October 2023) contributed to gaming segment growth. Call of Duty, World of Warcraft, Candy Crush, and Diablo are major franchises. Xbox Game Pass subscription growth is being driven by Activision content.
+
+RISKS
+
+Azure Growth Deceleration: After years of hyper-growth, Azure growth is expected to moderate as the base grows larger. Competition from AWS (market leader) and Google Cloud is intensifying.
+
+AI Monetization: Microsoft 365 Copilot adoption is slower than initially expected as enterprises carefully evaluate ROI before broad deployment.
+
+OpenAI Dependency: Microsoft's AI differentiation relies significantly on the OpenAI partnership. Any deterioration in that relationship would be material.
+
+Regulatory: EU and US antitrust scrutiny of Microsoft's market position in productivity software, cloud, and now AI. Activision acquisition faced regulatory challenges in Europe.
+
+Capital Allocation: Elevated capex of $80 billion/year for AI infrastructure reduces free cash flow and requires sustained high revenue growth to justify.
+
+GUIDANCE FOR Q2 FY2025
+
+Intelligent Cloud: $25.5 billion to $25.8 billion (Azure growth of 31-32% in constant currency).
+Productivity and Business Processes: $29.4 billion to $29.7 billion.
+More Personal Computing: $13.65 billion to $14.05 billion.
+Total Revenue: $68.1 billion to $69.1 billion.
+Operating Income: $31.1 billion to $31.5 billion.

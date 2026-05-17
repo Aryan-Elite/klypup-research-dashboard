@@ -1,0 +1,61 @@
+Apple Inc. — Fiscal Year 2024 Annual Results (Year ended September 2024)
+
+FINANCIAL HIGHLIGHTS
+
+Total Revenue: $391.04 billion, up 2% year over year.
+Gross Margin: 46.2%, the highest annual gross margin in company history.
+Operating Income: $123.22 billion.
+Net Income: $93.74 billion.
+Earnings Per Share: $6.11 diluted EPS, up 11% year over year.
+Free Cash Flow: $108.8 billion.
+
+SEGMENT BREAKDOWN
+
+iPhone: $201.18 billion, down 1% year over year. iPhone 16 series launched in September 2024 with Apple Intelligence AI features. Strong upgrade cycle expected as Apple Intelligence requires iPhone 15 Pro or later. iPhone remains 51% of total revenue.
+
+Services: $96.17 billion, up 13% year over year. Record revenue driven by App Store, Apple Music, iCloud, Apple TV+, Apple Pay, and licensing. Services now has over 1 billion paid subscriptions globally. Gross margin on Services is approximately 74%, significantly higher than Products.
+
+Mac: $29.98 billion, up 2% year over year. Transition to Apple Silicon complete. M4 chip launched in late 2024 with significant AI processing capabilities via the Neural Engine.
+
+iPad: $26.69 billion, up 6% year over year. iPad Pro with M4 chip launched, featuring the thinnest Apple product ever built.
+
+Wearables, Home and Accessories: $37.01 billion, down 7% year over year. Apple Watch Series 10 launched. AirPods Pro with hearing health features received FDA authorization as a hearing aid device.
+
+CEO COMMENTARY
+
+Tim Cook, CEO: "Today Apple is reporting a new September quarter revenue record of $94.9 billion, up 6 percent year over year. We are very excited as we begin to roll out Apple Intelligence to users and we believe we are only in the beginning innings of what is going to be a very exciting journey."
+
+"Our Services business continues to grow at a strong double-digit rate. We now have over 1 billion paid subscriptions across our services, and we are continuing to offer our customers compelling new ways to experience their Apple devices."
+
+APPLE INTELLIGENCE
+
+Apple Intelligence, announced at WWDC 2024, integrates AI capabilities directly into iOS 18, iPadOS 18, and macOS Sequoia. Features include Writing Tools, image generation, enhanced Siri with personal context, and ChatGPT integration. Apple Intelligence requires an iPhone 15 Pro or later, M1 iPad or later, or M1 Mac or later. This is expected to drive a significant upgrade cycle as users upgrade to AI-capable hardware. Privacy is preserved through on-device processing and Private Cloud Compute for more complex requests.
+
+GEOGRAPHIC PERFORMANCE
+
+Americas: $167.0 billion, up 4%.
+Europe: $101.3 billion, up 4%.
+Greater China: $66.95 billion, down 8%. Competition from Huawei and local Android brands intensifying. Regulatory scrutiny from Chinese government ongoing.
+Japan: $25.05 billion, up 3%.
+Rest of Asia Pacific: $30.7 billion, up 9%.
+
+CAPITAL RETURN
+
+Share buybacks: $94.9 billion in FY2024, the largest annual buyback program in corporate history.
+Dividends paid: $15.2 billion.
+Total capital returned: $110.1 billion.
+Cash and investments: $156.5 billion (gross), net cash position of approximately $57 billion after debt.
+
+RISKS
+
+China Exposure: Greater China represents 17% of revenue and is declining. US-China trade tensions and competition from domestic brands are ongoing risks.
+
+Regulatory: EU Digital Markets Act designates Apple as a gatekeeper, requiring App Store changes. DOJ antitrust lawsuit in the US challenging iPhone ecosystem practices. App Store commissions under legal and regulatory pressure globally.
+
+AI Competition: Google, Samsung, and Microsoft are integrating AI features into competing devices. The smartphone market remains mature with slowing overall unit growth.
+
+Valuation: At over $3.5 trillion market cap, Apple trades at a premium multiple that requires sustained growth to justify.
+
+OUTLOOK
+
+Apple does not provide formal revenue guidance. Management indicated they expect revenue growth in the low-to-mid single digit range for Q1 FY2025, with Services continuing to grow at double digits. Gross margin expected between 46.5% and 47.5% for Q1 FY2025.

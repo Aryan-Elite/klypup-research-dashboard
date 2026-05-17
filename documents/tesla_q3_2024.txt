@@ -1,0 +1,72 @@
+Tesla, Inc. — Q3 2024 Earnings Report (Quarter ended September 2024)
+
+FINANCIAL HIGHLIGHTS
+
+Total Revenue: $25.18 billion, up 8% year over year.
+Gross Margin: 19.8%, up from 17.9% in Q2 2024 — the highest since Q2 2023.
+Operating Income: $2.72 billion, operating margin of 10.8%.
+Net Income: $2.17 billion GAAP, up 17% year over year.
+Earnings Per Share: $0.62 diluted GAAP EPS, up 9% year over year.
+Free Cash Flow: $2.74 billion.
+Cash and equivalents: $33.6 billion.
+
+VEHICLE DELIVERIES AND PRODUCTION
+
+Deliveries: 462,890 vehicles in Q3 2024, up 6% year over year and a new quarterly record.
+Production: 469,796 vehicles.
+Model 3/Y: 439,975 deliveries.
+Other Models (S/X/Cybertruck): 22,915 deliveries.
+
+Cybertruck production is ramping, with Tesla stating it has become the best-selling electric truck in the US. Full Cybertruck production capacity is expected to reach 250,000 units per year.
+
+ENERGY SEGMENT
+
+Energy Generation and Storage: $2.376 billion revenue, up 52% year over year. This is a record quarter for the Energy segment.
+Megapack deployments: 6.9 GWh in Q3 2024, more than all of 2022 combined.
+Gross margin for Energy segment reached 30.5%, the highest ever.
+
+The Megafactory in Lathrop, California is producing Megapacks at high volume. A second Megafactory is under construction in Shanghai. Demand for grid-scale battery storage significantly exceeds current production capacity.
+
+SERVICES AND OTHER
+
+Services revenue: $2.79 billion, up 29% year over year. Includes vehicle insurance, FSD (Full Self-Driving) subscriptions, Supercharger revenue from third-party vehicles, and used vehicle sales.
+
+CEO COMMENTARY
+
+Elon Musk, CEO: "We had a record quarter for deliveries and energy storage deployments. I'm very excited about what's to come — we have major product launches ahead with the affordable Model and the Robotaxi. Autonomy is the story of Tesla. Anyone who doesn't believe Tesla will solve autonomy should not be a Tesla investor."
+
+"The Cybercab robotaxi event showed what's possible. We expect to start production in 2026 at a target price under $30,000. This is not a traditional car — it has no steering wheel, no pedals. It's designed from the ground up for autonomy."
+
+FULL SELF-DRIVING (FSD) AND AUTONOMY
+
+FSD version 12 uses an end-to-end neural network trained on video data. Tesla has driven over 1.5 billion miles on FSD in 2024. Unsupervised FSD is being tested in Austin and San Francisco.
+
+The Robotaxi (Cybercab) was unveiled in October 2024. Production target is 2026, priced under $30,000. Tesla also unveiled the Robovan, a 20-passenger autonomous vehicle.
+
+Tesla's Optimus humanoid robot is in production at Gigafactory Texas doing useful work. Tesla expects to produce several thousand Optimus robots in 2025 and tens of thousands in 2026. Long-term, Musk believes Optimus could be Tesla's most valuable product.
+
+AUTOPILOT AND SAFETY
+
+Tesla vehicles using Autopilot have approximately 5-6x fewer accidents than the average US vehicle. NHTSA investigations into Autopilot are ongoing. Tesla cooperates with all regulatory inquiries.
+
+MANUFACTURING AND COST REDUCTION
+
+Cost of goods sold per vehicle: $35,100, down from $36,000 in Q2 2024. Tesla continues to drive down manufacturing costs through process improvements at Gigafactories in Texas, Nevada, Germany, Shanghai, and Fremont.
+
+New affordable model (starting under $30,000) expected to begin production in early 2025 using the new unboxed manufacturing process. This model is expected to significantly expand Tesla's addressable market.
+
+RISKS
+
+Margin Pressure: Price cuts to maintain volume have compressed automotive gross margins significantly from the 29% peak in 2022.
+
+Elon Musk Distraction: Musk's involvement in Twitter/X, SpaceX, and political activities raises concerns about focus on Tesla.
+
+Competition: BYD and other Chinese EV makers are intensifying global competition. In China, Tesla faces intense price competition from local brands.
+
+FSD Regulatory Risk: Unsupervised autonomous driving requires regulatory approval in each jurisdiction. Timeline is uncertain.
+
+Execution Risk: Multiple simultaneous product launches (affordable model, Cybercab, Optimus) increase operational complexity.
+
+GUIDANCE
+
+Tesla does not provide specific revenue guidance. Management guided for "slight growth" in vehicle deliveries in 2024 versus 2023 (1.81 million). For 2025, Tesla expects 20-30% growth in vehicle deliveries, contingent on affordable model ramp.

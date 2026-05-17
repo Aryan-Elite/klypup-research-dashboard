@@ -1,0 +1,58 @@
+NVIDIA Corporation — Q3 FY2025 Earnings Report (Quarter ended October 2024)
+
+FINANCIAL HIGHLIGHTS
+
+Total Revenue: $35.08 billion, up 94% year over year and up 17% sequentially.
+Gross Margin: 74.6% GAAP, 75.0% non-GAAP.
+Operating Income: $21.87 billion GAAP, up 110% year over year.
+Net Income: $19.31 billion GAAP, up 109% year over year.
+Earnings Per Share: $0.78 GAAP diluted EPS, up 111% year over year.
+
+SEGMENT BREAKDOWN
+
+Data Center: $30.77 billion revenue, up 112% year over year. This is the largest segment and is driven by demand for Hopper GPU architecture, particularly the H100 and H200 chips used in AI training and inference workloads. Major cloud providers including Microsoft Azure, Google Cloud, Amazon AWS, and Meta are the primary customers. The Blackwell GPU architecture began shipping in Q3 and demand already exceeds supply.
+
+Gaming: $3.28 billion revenue, up 15% year over year. GeForce RTX 40-series adoption continues. The RTX 50-series based on Blackwell architecture is expected to launch in early 2025.
+
+Professional Visualization: $486 million, up 17% year over year. Demand driven by AI-powered workstations and rendering applications.
+
+Automotive: $449 million, up 72% year over year. Growth driven by DRIVE platform adoption by EV and autonomous vehicle manufacturers.
+
+OEM and Other: $102 million.
+
+CEO COMMENTARY
+
+Jensen Huang, CEO: "The age of AI is in full steam, propelling a global shift to NVIDIA computing. Demand for Hopper and anticipation for Blackwell — both in full production — are incredible as foundation model makers scale pretraining, post-training, and inference. AI is transforming every industry, company, and country. Enterprises are adopting agentic AI to revolutionize workflows. Industrial AI, physical AI, and robotics are becoming mainstream."
+
+"Our Data Center revenue nearly doubled year-over-year. We are seeing broad-based demand across cloud service providers, consumer internet companies, and enterprises globally. The sovereign AI trend — where nations build their own AI infrastructure — is accelerating."
+
+BLACKWELL ARCHITECTURE
+
+The Blackwell GPU platform began shipping in Q3 FY2025. Blackwell offers up to 4x faster training and 30x faster inference compared to the Hopper H100. The GB200 NVL72 rack-scale system is designed for trillion-parameter model training and inference. Supply constraints are expected to continue through early 2025 as manufacturing ramps.
+
+GUIDANCE FOR Q4 FY2025
+
+Revenue: $37.5 billion, plus or minus 2%.
+Gross Margin: 73.0% non-GAAP, reflecting Blackwell production ramp costs.
+Operating Expenses: Approximately $3.4 billion non-GAAP.
+
+RISKS AND CHALLENGES
+
+Export Controls: US government export restrictions on advanced AI chips to China and other countries remain a significant headwind. China revenue declined as a percentage of total revenue. NVIDIA is working on alternative products compliant with export regulations.
+
+Supply Constraints: Both Hopper and Blackwell supply remains constrained relative to demand. NVIDIA is working with TSMC and supply chain partners to increase production capacity.
+
+Competition: AMD's MI300X GPU is gaining traction in inference workloads. Google's TPUs and Amazon's Trainium chips are competing for internal cloud workloads. Intel is attempting to re-enter the AI accelerator market.
+
+Customer Concentration: A significant portion of revenue comes from a small number of hyperscale cloud providers.
+
+BALANCE SHEET AND CAPITAL RETURN
+
+Cash and equivalents: $38.5 billion.
+Share buybacks: $11.2 billion returned to shareholders in Q3.
+Dividend: $0.01 per share quarterly.
+Total debt: $8.46 billion.
+
+MARKET POSITION
+
+NVIDIA holds approximately 80-90% market share in AI training chips. The CUDA software ecosystem, built over 18 years, remains a significant competitive moat. Over 4 million developers use CUDA. NIM microservices and NVIDIA AI Enterprise software are expanding the software revenue opportunity.
