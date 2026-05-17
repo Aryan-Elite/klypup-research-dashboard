@@ -47,7 +47,7 @@ async function seed() {
   const collection = await client.createCollection({ name: COLLECTION_NAME })
   console.log('Created collection:', COLLECTION_NAME)
 
-  const docsDir = path.join(__dirname, '../../documents')
+  const docsDir = path.join(__dirname, '../documents')
 
   for (const doc of DOCUMENTS) {
     const filePath = path.join(docsDir, doc.file)
