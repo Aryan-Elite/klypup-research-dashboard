@@ -68,7 +68,9 @@ async function updateReport(req, res, next) {
 
 async function deleteReport(req, res, next) {
   try {
-    const report = await Report.findOneAndDelete({ _id: req.params.id, orgId: req.user.orgId })
+    const filter = { _id: req.params.id, orgId: req.user.orgId }
+    if (req.user.role !== 'admin') filter.userId = req.user.userId
+    const report = await Report.findOneAndDelete(filter)
     if (!report) return res.status(404).json({ error: 'Report not found' })
     res.json({ message: 'Report deleted' })
   } catch (err) {

@@ -7,6 +7,6 @@ const requireRole = require('../middleware/rbac.middleware')
 router.post('/create', authMiddleware, orgController.createOrg)
 router.post('/join', orgController.joinOrg)
 router.get('/me', authMiddleware, orgController.getOrgDetails)
-router.get('/members', authMiddleware, orgController.getMembers)
+router.get('/members', authMiddleware, requireRole('admin'), orgController.getMembers)
 
 module.exports = router
