@@ -110,6 +110,37 @@ klypup-research-dashboard/
 
 ---
 
+## Screenshots
+
+<table>
+  <tr>
+    <td align="center"><b>Signup — New or Join Workspace</b></td>
+    <td align="center"><b>Dashboard — Recent Reports + Quick Queries</b></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/01-signup.png" width="480"/></td>
+    <td><img src="screenshots/02-dashboard.png" width="480"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>AI Analyzing — Live Loading State</b></td>
+    <td align="center"><b>Research Results — Stock Cards, Charts, Risk, Reasoning</b></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/03-research-loading.png" width="480"/></td>
+    <td><img src="screenshots/04-research-results.png" width="480"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>History — Searchable Report List</b></td>
+    <td align="center"><b>Team — Org Members + Invite Code (RBAC)</b></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/05-history.png" width="480"/></td>
+    <td><img src="screenshots/06-team.png" width="480"/></td>
+  </tr>
+</table>
+
+---
+
 ## Setup & Running
 
 ### Prerequisites
