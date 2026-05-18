@@ -32,7 +32,7 @@ async function getHistory(req, res, next) {
     if (search) filter.title = { $regex: search, $options: 'i' }
 
     const reports = await Report.find(filter)
-      .select('title query tags createdAt trace')
+      .select('title query tags createdAt trace userId')
       .sort({ createdAt: -1 })
 
     res.json({ reports })

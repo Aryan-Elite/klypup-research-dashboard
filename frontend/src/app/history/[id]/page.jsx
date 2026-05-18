@@ -6,7 +6,7 @@ import { useAuth } from '@/context/AuthContext'
 import Sidebar from '@/components/Sidebar'
 import ResearchResult from '@/components/ResearchResult'
 import api from '@/lib/api'
-import { ArrowLeft, Loader2 } from 'lucide-react'
+import { ArrowLeft, Loader2, Trash2 } from 'lucide-react'
 
 export default function ReportDetailPage() {
   const { user, loading } = useAuth()
@@ -15,6 +15,19 @@ export default function ReportDetailPage() {
   const [report, setReport] = useState(null)
   const [fetching, setFetching] = useState(true)
   const [error, setError] = useState('')
+  const [deleting, setDeleting] = useState(false)
+
+  async function handleDelete() {
+    if (!confirm('Delete this report?')) return
+    setDeleting(true)
+    try {
+      await api.delete(`/research/${id}`)
+      router.push('/history')
+    } catch {
+      setError('Could not delete. You may only delete your own reports.')
+      setDeleting(false)
+    }
+  }
 
   useEffect(() => {
     if (!loading && !user) router.replace('/login')
@@ -60,13 +73,27 @@ export default function ReportDetailPage() {
           {report && (
             <>
               <div className="mb-6">
-                <h1 className="text-xl font-bold text-zinc-100">{report.title}</h1>
-                <p className="text-xs text-zinc-500 mt-1.5">
-                  {new Date(report.createdAt).toLocaleDateString('en-US', {
-                    weekday: 'short', month: 'long', day: 'numeric',
-                    hour: '2-digit', minute: '2-digit'
-                  })}
-                </p>
+                <div className="flex items-start justify-between gap-4">
+                  <div>
+                    <h1 className="text-xl font-bold text-zinc-100">{report.title}</h1>
+                    <p className="text-xs text-zinc-500 mt-1.5">
+                      {new Date(report.createdAt).toLocaleDateString('en-US', {
+                        weekday: 'short', month: 'long', day: 'numeric',
+                        hour: '2-digit', minute: '2-digit'
+                      })}
+                    </p>
+                  </div>
+                  {(user.role === 'admin' || String(report.userId) === String(user._id)) && (
+                    <button
+                      onClick={handleDelete}
+                      disabled={deleting}
+                      className="flex items-center gap-1.5 text-xs text-zinc-500 hover:text-red-400 border border-zinc-800 hover:border-red-500/30 rounded-lg px-3 py-1.5 transition shrink-0"
+                    >
+                      {deleting ? <Loader2 size={12} className="animate-spin" /> : <Trash2 size={12} />}
+                      Delete
+                    </button>
+                  )}
+                </div>
                 {report.query && (
                   <p className="text-sm text-zinc-400 mt-3 bg-zinc-900 border border-zinc-800 rounded-lg px-4 py-2.5 italic">
                     "{report.query}"

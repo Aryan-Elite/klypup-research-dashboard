@@ -27,7 +27,7 @@ async function signup(req, res, next) {
     const passwordHash = await bcrypt.hash(password, 10)
     const user = await User.create({ email, passwordHash, role: 'admin', orgId: org._id })
 
-    res.status(201).json({ token: generateToken(user), user: { email: user.email, role: user.role }, org: { name: org.name, inviteCode: org.inviteCode } })
+    res.status(201).json({ token: generateToken(user), user: { _id: user._id, email: user.email, role: user.role }, org: { name: org.name, inviteCode: org.inviteCode } })
   } catch (err) {
     next(err)
   }
@@ -46,7 +46,7 @@ async function login(req, res, next) {
     if (!valid) return res.status(401).json({ error: 'Invalid credentials' })
 
     const org = await Org.findById(user.orgId)
-    res.json({ token: generateToken(user), user: { email: user.email, role: user.role }, org: { name: org.name, inviteCode: org.inviteCode } })
+    res.json({ token: generateToken(user), user: { _id: user._id, email: user.email, role: user.role }, org: { name: org.name, inviteCode: org.inviteCode } })
   } catch (err) {
     next(err)
   }

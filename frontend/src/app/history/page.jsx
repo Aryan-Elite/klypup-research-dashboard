@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { useAuth } from '@/context/AuthContext'
 import Sidebar from '@/components/Sidebar'
 import api from '@/lib/api'
-import { History, Search, BarChart2, ArrowRight, FileText } from 'lucide-react'
+import { History, Search, BarChart2, FileText, Trash2, Loader2 } from 'lucide-react'
 
 export default function HistoryPage() {
   const { user, loading } = useAuth()
@@ -13,6 +13,21 @@ export default function HistoryPage() {
   const [reports, setReports] = useState([])
   const [fetching, setFetching] = useState(true)
   const [search, setSearch] = useState('')
+  const [deleting, setDeleting] = useState(null)
+
+  async function handleDelete(id, e) {
+    e.stopPropagation()
+    if (!confirm('Delete this report?')) return
+    setDeleting(id)
+    try {
+      await api.delete(`/research/${id}`)
+      setReports(prev => prev.filter(r => r._id !== id))
+    } catch {
+      alert('Could not delete. You may only delete your own reports.')
+    } finally {
+      setDeleting(null)
+    }
+  }
 
   useEffect(() => {
     if (!loading && !user) router.replace('/login')
@@ -88,10 +103,10 @@ export default function HistoryPage() {
           ) : (
             <div className="space-y-2">
               {filtered.map((r) => (
-                <Link
+                <div
                   key={r._id}
-                  href={`/history/${r._id}`}
-                  className="flex items-center gap-4 bg-zinc-900 border border-zinc-800 hover:border-zinc-700 rounded-xl px-4 py-3.5 transition group"
+                  onClick={() => router.push(`/history/${r._id}`)}
+                  className="flex items-center gap-4 bg-zinc-900 border border-zinc-800 hover:border-zinc-700 rounded-xl px-4 py-3.5 transition group cursor-pointer"
                 >
                   <div className="w-8 h-8 bg-zinc-800 rounded-lg flex items-center justify-center shrink-0">
                     <BarChart2 size={14} className="text-violet-400" />
@@ -112,8 +127,19 @@ export default function HistoryPage() {
                       )}
                     </p>
                   </div>
-                  <ArrowRight size={14} className="text-zinc-700 group-hover:text-zinc-400 transition shrink-0" />
-                </Link>
+                  {(user.role === 'admin' || String(r.userId) === String(user._id)) && (
+                    <button
+                      onClick={(e) => handleDelete(r._id, e)}
+                      disabled={deleting === r._id}
+                      className="p-1.5 rounded-lg text-zinc-600 hover:text-red-400 hover:bg-red-500/10 transition shrink-0"
+                    >
+                      {deleting === r._id
+                        ? <Loader2 size={14} className="animate-spin" />
+                        : <Trash2 size={14} />
+                      }
+                    </button>
+                  )}
+                </div>
               ))}
             </div>
           )}
